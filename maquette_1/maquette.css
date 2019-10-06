@@ -1,0 +1,369 @@
+/*@font-face
+{
+	font-family: 'Oswald';
+	src: url('Oswald.eot'); Fonctionne sur IE uniquement
+	src: url('Oswald.ttf'); Pour IE9 et plus 
+	src: url('Oswald.otf'); Passe pas sur IE
+	src: url('Oswald.svg'); Pour iPhones ou iPads
+	src: url('Oswald.wotff'); Pour IE9 et tous les autres navigateurs
+}
+Ne fonctionne pas en CSS 2.1*/
+
+
+
+body 
+{
+	margin: 0;
+	padding: 0;
+	width: auto;
+}
+
+#main 
+{
+	background-image: url("../maquette_1/misc/grille.png");
+	width: 100%;
+	height: auto;
+}
+
+.header 
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 8px;
+	width: 1000px;
+	height: 170px;
+	margin: auto;
+}
+
+.sommaire
+{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 180px;
+
+}
+
+.position 
+{
+	float: left;
+	margin-right: 40px;
+}
+
+
+
+hr
+{
+	clear: both;
+	border-color: #E3E3E3!important;
+}
+
+
+
+.sommaire ul
+{
+	margin:0;
+	padding: 0;
+	margin-top: 15px;
+	margin-right: 25px;
+
+}
+
+.sommaire h3
+{
+	margin: 0;
+	color: #404040;
+	font-size: 10px;
+}
+
+.sommaire a {
+	text-decoration: none;
+	font-family: 'Verdana;'
+}
+
+
+
+.text_service
+{
+	width: 100%;
+    text-align: center;
+    height: auto;
+    position: relative;
+}
+
+.logo
+{
+	padding: 20px 0 20px 0;
+	float: left;
+	margin-top: 10px;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+/*.bottom
+{
+	margin-bottom: 30px;
+	border-color: #E3E3E3;
+
+
+}
+
+.top
+{
+	margin-top: 30px;
+	color: #BFBFBF;
+}*/
+
+
+.orange
+{
+	border-top: 5px solid #FF4400;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.yellow
+{
+	border-top: 5px solid #F1B814;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	width: 88px;
+}
+
+.green
+{
+	border-top: 5px solid #C2D56B;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	width: 80px;
+}
+
+.blue
+{
+	border-top: 5px solid #006699;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	width: 90px;
+}
+
+.purple
+{
+	border-top: 5px solid #CC33FF;
+	margin-bottom: 12px;
+	margin-top: 10px;
+	width: 100px;
+}
+
+
+#video
+{
+	width: 560px;
+	height: 315px;
+	margin: auto;
+}
+
+.text_service
+{
+	background-image: url("../maquette_1/misc/grille.png");
+	width: 100%;
+	height: 90px;	
+}
+
+.service
+{
+	padding-top: 34px;
+	font-style: italic;
+	font-family: 'Calibri', sans-serif;
+	color: #788898;
+
+}
+
+
+
+.conteneur
+{
+	height: 400px;
+	/*border: 2px solid red;*/
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.conteneur p
+{
+	font-family: 'Calibri', sans-serif;
+	font-size: 13px;
+}
+
+.conteneur a
+{
+	text-decoration: none;
+}
+.golf 
+{
+    width: 222px;
+    height: 350px;
+    float: left;
+    border: 1px solid #D0D4D0;
+    padding-left: 11px;
+}
+
+.golf p
+{
+	padding-right: 33px;
+	
+}
+
+h2
+{
+	font-size: 16px;
+	color: #FF751A;
+}
+
+.loisirs 
+{
+	/*border: 1px solid red;*/
+    width: 200px;
+    height: 400px;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.publie, .publie a
+{
+	font-style: italic;
+	color: #BFBFBF;
+	font-size: 9px;
+}
+
+
+.fast_foods
+{
+	padding-top: 40px;
+}
+
+
+.commentaires 
+{
+	/*border: 1px solid green;*/
+    width: 450px;
+    height: 400px;
+    float: left;
+    padding-left: 45px;
+}
+
+.commentaires img
+{
+	border: 1px solid #f2f2f2;
+	padding: 7px;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+
+
+.section
+{
+	/* 	border: 1px solid blue;*/
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+	height: 220px;
+	background-image: url("../maquette_1/misc/grille.png");
+	font-size: 12px;
+}
+
+h4
+{
+	margin-top: 30px;
+	color:  #C0C0C0;
+}
+
+.adresse
+{
+	width: 1000px;
+	height: 170px;
+	margin: auto;
+}
+
+.info
+{
+	margin-left: -30px;
+
+}
+
+.adresse p
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 10px;
+	color: #A8ACA8;
+}
+
+.info ul
+{
+	padding: 0;
+}
+
+
+.info li, a
+{
+	color: #404040;
+	font-size: 10px;
+}
+
+/*Ne comprend pas pourquoi les icones sont aussi grande et dépasse */
+
+.billet
+{
+
+	margin-left: 115px;
+}
+
+.billet a
+{
+	font-style: italic;
+	color: gray;
+}
+
+.com
+{
+	margin-left: 75px;
+}
+
+.blabla
+{
+	margin-left: 73px;
+}
+
+
+.info,.billet, .com, .blabla
+{
+	float: left;
+
+}
+
+.footer{
+	position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: 'Verdana', sans-serif;
+
+}
+
+.reseaux_sociaux{
+	position: absolute;
+    float: right;
+    right: 590px;
+}
+.contact{
+	position: absolute;
+    float: left;
+	left: 410px;
+	font-size: 5px;
+}
+
+
+
